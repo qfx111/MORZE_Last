@@ -7,7 +7,7 @@ namespace Morse_code
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Select Languages 1 ToEnglish 2 ToMorse 3 ToMorseFromRussian 4 ToMorseFormRussian");
+            Console.WriteLine("Select Languages: 1) ToEnglish\n 2) ToMorse\n 3) ToMorseFromRussian\n 4) ToMorseFormRussian\n");
             var i = int.Parse(Console.ReadLine() ?? string.Empty);
             Translate(i);
         }
